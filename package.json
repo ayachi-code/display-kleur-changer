@@ -1,0 +1,19 @@
+{
+  "name": "kleur-verander",
+  "version": "1.0.0",
+  "description": "een app die de kleur van je display veranderd",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayachi-code/display-kleur-changer.git"
+  },
+  "author": "bilal el ayachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayachi-code/display-kleur-changer/issues"
+  },
+  "homepage": "https://github.com/ayachi-code/display-kleur-changer#readme"
+}
