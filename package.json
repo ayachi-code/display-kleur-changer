@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ayachi-code/display-kleur-changer/issues"
   },
-  "homepage": "https://github.com/ayachi-code/display-kleur-changer#readme"
+  "homepage": "https://github.com/ayachi-code/display-kleur-changer#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
