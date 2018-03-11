@@ -9,3 +9,11 @@ const socket = require("socket.io");
 
 const io = socket(server)
 
+
+io.sockets.on("connection",(socket) => {
+console.log("hey nieuw")
+
+
+});
+
+
