@@ -35,6 +35,13 @@ console.log("hey nieuw");
 
 	});
 
+socket.on("groen_muis",(data) => {
+	console.log("scherm word groen")
+
+})
+
+
+
 });
 
 
