@@ -1,13 +1,22 @@
 .kleur-bank {
 	width: 100%;
-	height: 230px;
-	
+	height: 230px;	
+
 
 }
 .kleur-rood {
 	width: 33%;
 	height: 100%;
 	background-color: red;
-
+	float: left;
 
 }
+
+.kleur-groen {
+	width: 33%;
+	height: 100%;
+	background-color: green;
+	float:left;
+}
+
+
