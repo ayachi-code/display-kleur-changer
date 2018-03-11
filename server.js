@@ -13,7 +13,17 @@ const socket = require("socket.io");
 const io = socket(server)
 
 
-let rood = [255,0,0];
+let r = [255,0,0];
+
+let rood_lijst = [r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r,
+		  r,r,r,r,r,r,r,r]
+
 
 io.sockets.on("connection",(socket) => {
 console.log("hey nieuw");
