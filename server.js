@@ -13,6 +13,10 @@ const io = socket(server)
 io.sockets.on("connection",(socket) => {
 console.log("hey nieuw");
 
+ socket.on("rood_muis",(data) => {
+	console.log("Scherm word root")
+	});
+
 });
 
 
