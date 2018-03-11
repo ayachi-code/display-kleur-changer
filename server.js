@@ -30,7 +30,7 @@ console.log("hey nieuw");
 
  socket.on("rood_muis",(data) => {
 	console.log("Scherm word root")
-
+	led_lichtjes.setPixels(rood_lijst);
 		
 
 	});
