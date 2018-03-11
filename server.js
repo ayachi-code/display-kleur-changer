@@ -26,6 +26,15 @@ let rood_lijst = [r,r,r,r,r,r,r,r,
 		  r,r,r,r,r,r,r,r]
 
 
+let groen_lijst = [g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g,
+	           g,g,g,g,g,g,g,g,
+		   g,g,g,g,g,g,g,g]
+
 io.sockets.on("connection",(socket) => {
 console.log("hey nieuw");
 
@@ -38,8 +47,9 @@ console.log("hey nieuw");
 
 socket.on("groen_muis",(data) => {
 	console.log("scherm word groen")
+	led_lichtjes.setPixels(groen_lijst);
 
-})
+});
 
 
 
