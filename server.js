@@ -7,5 +7,5 @@ app.use(express.static("public"))
 
 const socket = require("socket.io");
 
-
+const io = socket(server)
 
