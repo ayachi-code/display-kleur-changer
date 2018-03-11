@@ -14,6 +14,7 @@ const io = socket(server)
 
 
 let r = [255,0,0];
+let g = [0,255,0];
 
 let rood_lijst = [r,r,r,r,r,r,r,r,
 		  r,r,r,r,r,r,r,r,
