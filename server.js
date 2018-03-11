@@ -64,6 +64,7 @@ socket.on("groen_muis",(data) => {
 
 socket.on("blauw_muis",(data) => {
 	console.log("Scherm word blauw");
+	led_lichtjes.setPixels(blauw_lijst)
 
 });
 
