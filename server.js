@@ -36,6 +36,16 @@ let groen_lijst = [g,g,g,g,g,g,g,g,
 	           g,g,g,g,g,g,g,g,
 		   g,g,g,g,g,g,g,g]
 
+
+let blauw_lijst = [b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b,
+		   b,b,b,b,b,b,b,b]
+
 io.sockets.on("connection",(socket) => {
 console.log("hey nieuw");
 
