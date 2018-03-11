@@ -22,10 +22,27 @@ let groen_b = document.getElementById("groen").addEventListener("mouseover", () 
 
 })
 
+let groen_b_weg = document.getElementById("groen").addEventListener("mouseout", () => {
+        console.log("scherm word geen  groen meer ")
+        socket.emit("groen_muis_weg","hey");
+
+})
+
+
 
 
 let blauw_b = document.getElementById("blauw").addEventListener("mouseover", () => {
         console.log("scherm word blauw")
 	socket.emit("blauw_muis","hey")
 })
-                                                                                                                             
+  
+
+
+let blauw_b_weg = document.getElementById("blauw").addEventListener("mouseout", () => {
+        console.log("scherm word geen  blauw meer ")
+        socket.emit("blauw_muis_weg","hey")
+})
+
+
+
+                                                                                                                           

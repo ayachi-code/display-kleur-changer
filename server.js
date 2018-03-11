@@ -71,10 +71,20 @@ socket.on("blauw_muis",(data) => {
 socket.on("rood_muis_weg",(data) => {
 	led_lichtjes.clear()
 
+});
+
+
+socket.on("blauw_muis_weg",(data) => {
+	led_lichtjes.clear()
+});
+
+socket.on("groen_muis_weg",(data) => {
+        led_lichtjes.clear()
 })
 
 
 
 });
+
 
 
