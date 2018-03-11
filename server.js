@@ -11,8 +11,7 @@ const io = socket(server)
 
 
 io.sockets.on("connection",(socket) => {
-console.log("hey nieuw")
-
+console.log("hey nieuw");
 
 });
 
