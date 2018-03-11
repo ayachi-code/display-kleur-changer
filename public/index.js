@@ -19,6 +19,6 @@ let groen_b = document.getElementById("groen").addEventListener("mouseover", () 
 
 let blauw_b = document.getElementById("blauw").addEventListener("mouseover", () => {
         console.log("scherm word blauw")
-
+	socket.emit("blauw_muis","hey")
 })
                                                                                                                              
