@@ -68,6 +68,11 @@ socket.on("blauw_muis",(data) => {
 
 });
 
+socket.on("rood_muis_weg",(data) => {
+	led_lichtjes.clear()
+
+})
+
 
 
 });

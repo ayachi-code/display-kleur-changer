@@ -8,6 +8,13 @@ let rood_b = document.getElementById("rood").addEventListener("mouseover", () =>
 
 })
 
+let rood_b_weg = document.getElementById("rood").addEventListener("mouseout", () => {
+        console.log("scherm word niet meer rood")
+        socket.emit("rood_muis_weg","hey");
+
+})
+
+
 
 let groen_b = document.getElementById("groen").addEventListener("mouseover", () => {
         console.log("scherm word groen")
